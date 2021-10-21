@@ -1,0 +1,13 @@
+.input {
+  display: block;
+  width: 100%;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+
+.input:hover,
+.input:focus {
+  outline: none;
+  border-color: #caa;
+}

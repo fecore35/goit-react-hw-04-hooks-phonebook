@@ -1,0 +1,38 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #caa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item p {
+  margin: 0;
+}
+
+.item a {
+  color: #786502;
+  text-decoration: none;
+}
+
+.button {
+  border-width: 0;
+  background-color: transparent;
+  font-size: 22px;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  color: red;
+}
+
+.button svg {
+  display: block;
+}
